@@ -30,10 +30,8 @@
 x = int(input("Enter integer x: "))
 y = int(input("Enter integer y: "))
 
-# Check for negative integers
 if x < 0 or y < 0:
     print("Invalid input")
-# Check if x is 0 to avoid division by zero error
 elif x == 0:
     print("Division by zero is not allowed")
 # Check divisibility using the modulo operator
